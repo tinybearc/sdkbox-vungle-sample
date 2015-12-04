@@ -3,9 +3,9 @@
         "engine": "3", 
         "constants": {
             "ANDROID_STUDIO_JNI_DIR": "frameworks/runtime-src/proj.android-studio/app/jni/", 
-            "COCOS_BACKUP_DIR": "backup-2015-11-26/", 
+            "COCOS_BACKUP_DIR": "backup-2015-12-04/", 
             "COCOS_PROJECT_DIR": "./", 
-            "COCOS_2DX_INSTALLATION_VERSION": "3.6.0", 
+            "COCOS_2DX_INSTALLATION_VERSION": "3.7.0", 
             "android_js_sources": [
                 "../../Classes/PluginVungleJS.cpp", 
                 "../../Classes/PluginVungleJS.hpp", 
@@ -27,7 +27,7 @@
             "COCOS_CLASSES_DIR": "frameworks/runtime-src/Classes/", 
             "XCODE_PROJECT": "frameworks/runtime-src/proj.ios_mac/js.xcodeproj/project.pbxproj", 
             "ANDROID_SDK_DIR": "/Users/gbox/Android/sdk/", 
-            "COCOS_2DX_ROOT": "/Applications/Cocos/frameworks/cocos2d-x-3.6/", 
+            "COCOS_2DX_ROOT": "/Applications/Cocos/frameworks/cocos2d-x-3.8/", 
             "ANDROID_MANIFEST": "frameworks/runtime-src/proj.android/AndroidManifest.xml", 
             "ANDROID_STUDIO_MANIFEST": "frameworks/runtime-src/proj.android-studio/app/AndroidManifest.xml", 
             "ANDROID_JNI_DIR": "frameworks/runtime-src/proj.android/jni/", 
@@ -55,9 +55,9 @@
         }, 
         "version": [
             1, 
-            4, 
-            1, 
-            7
+            5, 
+            0, 
+            3
         ], 
         "name": "vungle", 
         "args": {
@@ -73,7 +73,7 @@
             "server": "download.sdkbox.com/installer/v1/", 
             "forcedownload": 0, 
             "china": 0, 
-            "installer": "/Users/gbox/.sdkbox/bin/sdkbox.pyc", 
+            "installer": "/Users/gbox/Documents/chukong_test/sdkbox-core/tools/installer/sdkbox/bin/sdkbox.pyc", 
             "manifest": "manifest.json", 
             "nopatching": 1, 
             "jsonapi": 0
