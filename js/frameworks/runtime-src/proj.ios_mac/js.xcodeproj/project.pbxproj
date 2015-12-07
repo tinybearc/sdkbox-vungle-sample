@@ -17,7 +17,6 @@
 		1AD7E0A918C9DBE3004817A6 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 1A6BF21418C9DB5900FB0E1C /* main.js */; };
 		1AE159EC18C9DF3600FCA372 /* project.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1A081B18C9DF05005C6854 /* project.json */; };
 		2B474C89925BA79F1E3F8691 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC244BEA831C2F1995353D7 /* sdkbox.framework */; };
-		2F5343CB9CAFD026E20C3A06 /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17D547AE8DDCCB52736745C5 /* SDKBoxJSHelper.cpp */; };
 		32C94FDF9F66114A6AA398B1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEAF4E6F8B01B80CD7E4B2C4 /* StoreKit.framework */; };
 		3AC94C22AA4A8E3F3D74270D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FE4E5695BE4901458A2703 /* CFNetwork.framework */; };
 		4F91456C89BDC70829F20AF6 /* PluginVungle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB4C52A1BF7B5EF95A1414 /* PluginVungle.framework */; };
@@ -56,16 +55,15 @@
 		509D4AE917EBB82000697056 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AE817EBB82000697056 /* AppKit.framework */; };
 		509D4AEB17EBB82600697056 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 509D4AEA17EBB82600697056 /* IOKit.framework */; };
 		591C5A201BCC8A2C00213205 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 591C5A1F1BCC8A2C00213205 /* GameController.framework */; };
-		5C664A4585408601A2C59205 /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17D547AE8DDCCB52736745C5 /* SDKBoxJSHelper.cpp */; };
 		62364DD7B7420480A9A90807 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCC4C35A12F2904D5FB3153 /* WebKit.framework */; };
 		62BB44F49914991051D776B5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70364BEBA61F2E6CB7EAC6B7 /* CoreMedia.framework */; };
 		63754ED8B0B361E38A3677B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795B40CB9A28002AB9239FFC /* SystemConfiguration.framework */; };
 		704046C48653C600C69B3051 /* sdkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC244BEA831C2F1995353D7 /* sdkbox.framework */; };
 		72EB478082513CE5BAF2FB2B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924E4C0984BB92B0814D9479 /* AdSupport.framework */; };
 		73634A59BD3ED6F1C50CDBA3 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCC4C35A12F2904D5FB3153 /* WebKit.framework */; };
-		8B234E1FA248CFE529070B65 /* PluginVungleJS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0405F831879A7C7C2A428 /* PluginVungleJS.cpp */; };
-		937043CB9EEAFE6483899151 /* PluginVungleJS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0405F831879A7C7C2A428 /* PluginVungleJS.cpp */; };
 		940241F8AEB4560D3F77E165 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70364BEBA61F2E6CB7EAC6B7 /* CoreMedia.framework */; };
+		9520A59A1C117BD600AF3FAB /* PluginVungleJS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9520A5961C117BD600AF3FAB /* PluginVungleJS.cpp */; };
+		9520A59B1C117BD600AF3FAB /* SDKBoxJSHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9520A5981C117BD600AF3FAB /* SDKBoxJSHelper.cpp */; };
 		A56B4836A6E872314CC701BA /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 924E4C0984BB92B0814D9479 /* AdSupport.framework */; };
 		A7AB4347BF25A3561BBE79E6 /* PluginVungle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9BB4C52A1BF7B5EF95A1414 /* PluginVungle.framework */; };
 		A8CE42A9B82FF78A0F839455 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FE4E5695BE4901458A2703 /* CFNetwork.framework */; };
@@ -159,13 +157,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17D547AE8DDCCB52736745C5 /* SDKBoxJSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SDKBoxJSHelper.cpp; path = "/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/Classes/SDKBoxJSHelper.cpp"; sourceTree = "<absolute>"; };
 		1A1A081B18C9DF05005C6854 /* project.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = project.json; path = ../../../project.json; sourceTree = "<group>"; };
 		1A6BF21418C9DB5900FB0E1C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = ../../../main.js; sourceTree = "<group>"; };
 		1A82F5FA169AC92500C4B13A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		1A96A4F2174A3432008653A9 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = "../../cocos2d-x/cocos2dx/platform/third_party/ios/libraries/libcurl.a"; sourceTree = "<group>"; };
 		1AC6FB34180E9ACB004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = "../../cocos2d-x/build/cocos2d_libs.xcodeproj"; sourceTree = "<group>"; };
-		1ED0405F831879A7C7C2A428 /* PluginVungleJS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginVungleJS.cpp; path = "/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/Classes/PluginVungleJS.cpp"; sourceTree = "<absolute>"; };
 		3AAE49F082317C9ECD5188FC /* PluginVungleJSHelper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginVungleJSHelper.cpp; path = ../Classes/PluginVungleJSHelper.cpp; sourceTree = SOURCE_ROOT; };
 		403B4A29A2C71E8B99BFA444 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
 		502380DB17EBB88200990C9B /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
@@ -202,8 +198,11 @@
 		591C5A1F1BCC8A2C00213205 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/GameController.framework; sourceTree = DEVELOPER_DIR; };
 		70364BEBA61F2E6CB7EAC6B7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		795B40CB9A28002AB9239FFC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		7E034C4EA4B7A03D68F1BA99 /* PluginVungleJS.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PluginVungleJS.hpp; path = "/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/Classes/PluginVungleJS.hpp"; sourceTree = "<absolute>"; };
 		924E4C0984BB92B0814D9479 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/AdSupport.framework; sourceTree = DEVELOPER_DIR; };
+		9520A5961C117BD600AF3FAB /* PluginVungleJS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PluginVungleJS.cpp; sourceTree = "<group>"; };
+		9520A5971C117BD600AF3FAB /* PluginVungleJS.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PluginVungleJS.hpp; sourceTree = "<group>"; };
+		9520A5981C117BD600AF3FAB /* SDKBoxJSHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SDKBoxJSHelper.cpp; sourceTree = "<group>"; };
+		9520A5991C117BD600AF3FAB /* SDKBoxJSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKBoxJSHelper.h; sourceTree = "<group>"; };
 		A922753D1517C094001B78AA /* js-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "js-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92275411517C094001B78AA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A92275431517C094001B78AA /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -214,7 +213,6 @@
 		A922754D1517C094001B78AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A922754F1517C094001B78AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		AEAF4E6F8B01B80CD7E4B2C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
-		B5B6481A988CDDD25DCC923C /* SDKBoxJSHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SDKBoxJSHelper.h; path = "/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/Classes/SDKBoxJSHelper.h"; sourceTree = "<absolute>"; };
 		B9BB4C52A1BF7B5EF95A1414 /* PluginVungle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PluginVungle.framework; sourceTree = "<group>"; };
 		BA3A85EB1A724AE900924D24 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		BA4E718019EB6E3E00932425 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
@@ -452,10 +450,10 @@
 			children = (
 				D4545215156E28EF00887EB5 /* AppDelegate.cpp */,
 				D4545216156E28EF00887EB5 /* AppDelegate.h */,
-				1ED0405F831879A7C7C2A428 /* PluginVungleJS.cpp */,
-				7E034C4EA4B7A03D68F1BA99 /* PluginVungleJS.hpp */,
-				17D547AE8DDCCB52736745C5 /* SDKBoxJSHelper.cpp */,
-				B5B6481A988CDDD25DCC923C /* SDKBoxJSHelper.h */,
+				9520A5961C117BD600AF3FAB /* PluginVungleJS.cpp */,
+				9520A5971C117BD600AF3FAB /* PluginVungleJS.hpp */,
+				9520A5981C117BD600AF3FAB /* SDKBoxJSHelper.cpp */,
+				9520A5991C117BD600AF3FAB /* SDKBoxJSHelper.h */,
 				3AAE49F082317C9ECD5188FC /* PluginVungleJSHelper.cpp */,
 				D2B241C58F80E26ACE5D3912 /* PluginVungleJSHelper.h */,
 			);
@@ -627,8 +625,6 @@
 			files = (
 				509D4A8117EBB24E00697056 /* AppDelegate.cpp in Sources */,
 				C06E23CC18CEFE680093C81A /* main.cpp in Sources */,
-				8B234E1FA248CFE529070B65 /* PluginVungleJS.cpp in Sources */,
-				2F5343CB9CAFD026E20C3A06 /* SDKBoxJSHelper.cpp in Sources */,
 				13514644B6BA6E1F3C471C52 /* PluginVungleJSHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -637,12 +633,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9520A59A1C117BD600AF3FAB /* PluginVungleJS.cpp in Sources */,
+				9520A59B1C117BD600AF3FAB /* SDKBoxJSHelper.cpp in Sources */,
 				509D4AC917EBB2AB00697056 /* RootViewController.mm in Sources */,
 				D4545227156E28EF00887EB5 /* AppDelegate.cpp in Sources */,
 				509D4AC817EBB2AB00697056 /* main.m in Sources */,
 				509D4ABC17EBB2AB00697056 /* AppController.mm in Sources */,
-				937043CB9EEAFE6483899151 /* PluginVungleJS.cpp in Sources */,
-				5C664A4585408601A2C59205 /* SDKBoxJSHelper.cpp in Sources */,
 				4F954B95A87E567F053B7044 /* PluginVungleJSHelper.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -757,6 +753,7 @@
 					"\"VungleSDK.framework\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/gui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/auto $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/manual";
@@ -785,7 +782,10 @@
 					"\"PluginVungle.framework\"",
 					"\"VungleSDK.framework\"",
 				);
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DSDKBOX_ENABLED",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../cocos2d-x $(SRCROOT)/../../cocos2d-x/cocos $(SRCROOT)/../../cocos2d-x/cocos/base $(SRCROOT)/../../cocos2d-x/cocos/physics $(SRCROOT)/../../cocos2d-x/cocos/math/kazmath $(SRCROOT)/../../cocos2d-x/cocos/2d $(SRCROOT)/../../cocos2d-x/cocos/gui $(SRCROOT)/../../cocos2d-x/cocos/network $(SRCROOT)/../../cocos2d-x/cocos/audio/include $(SRCROOT)/../../cocos2d-x/cocos/editor-support $(SRCROOT)/../../cocos2d-x/extensions $(SRCROOT)/../../cocos2d-x/external $(SRCROOT)/../../cocos2d-x/external/chipmunk/include/chipmunk $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/auto $(SRCROOT)/../../cocos2d-x/cocos/scripting/js-bindings/manual";
@@ -799,7 +799,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -817,6 +817,7 @@
 					"\"PluginVungle.framework\"",
 					"\"VungleSDK.framework\"",
 				);
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -831,7 +832,7 @@
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
-				FRAMEWORK_SEARCH_PATHS = "\"/Users/niteluo/Projects/test/cocos/sdkbox-vungle-sample/js/frameworks/runtime-src/proj.ios_mac/\"";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ios/Prefix.pch;
@@ -848,6 +849,7 @@
 					"\"PluginVungle.framework\"",
 					"\"VungleSDK.framework\"",
 				);
+				OTHER_CFLAGS = "-DSDKBOX_ENABLED";
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

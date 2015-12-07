@@ -54,7 +54,7 @@ private:
         if (!s_cx) {
             return;
         }
-        cocos2d::Director::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
+        // cocos2d::Director::getInstance()->getScheduler()->performFunctionInCocosThread([=](){
         JSContext* cx = s_cx;
         const char* func_name = fName.c_str();
 
@@ -108,7 +108,7 @@ private:
             }
 #endif
         }
-        });
+        // });
     }
 
 private:
