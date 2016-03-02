@@ -1,6 +1,6 @@
 /****************************************************************************
 
- Copyright (c) 2014-2015 Chukong Technologies
+ Copyright (c) 2014-2015 SDKBOX Inc
 
  ****************************************************************************/
 #ifndef _PLUGIN_VUNGLE_H_
@@ -34,7 +34,7 @@ namespace sdkbox
          * Vungle ad has been viewed.
          */
         virtual void onVungleAdViewed(bool isComplete) = 0;
-        
+
         /*!
          * Vungle reward ad has benviewed
          */
